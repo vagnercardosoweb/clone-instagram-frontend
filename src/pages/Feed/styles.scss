@@ -1,0 +1,71 @@
+.main-feed {
+  width: 100%;
+  max-width: 580px;
+  margin: 30px auto;
+  padding: 0px 20px;
+
+  .no-results {
+    display: block;
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: bolder;
+    border: 1px solid #dddddd;
+  }
+
+  > article {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 30px;
+
+    header {
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .feed-user {
+        p:first-child {
+          font-weight: bold;
+          font-size: 16px;
+        }
+
+        .place {
+          font-size: 13px;
+          color: #666666;
+          margin-top: 3px;
+        }
+      }
+    }
+
+    .image {
+      width: 100%;
+    }
+
+    > footer {
+      padding: 20px;
+
+      .actions {
+        margin-bottom: 10px;
+        cursor: pointer;
+
+        img {
+          height: 20px;
+          margin-right: 15px;
+        }
+      }
+
+      .description {
+        font-size: 13px;
+        margin-top: 3px;
+        line-height: 18px;
+
+        .hashtags {
+          display: block;
+          color: #7159c1;
+        }
+      }
+    }
+  }
+}

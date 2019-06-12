@@ -1,0 +1,41 @@
+.new-form {
+  width: 100%;
+  max-width: 580px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+
+  display: flex;
+  flex-direction: column;
+
+  input {
+    margin-bottom: 10px;
+
+    ~ [type='text'] {
+      padding: 15px;
+      border-radius: 5px;
+      border: 1px solid #dddddd;
+    }
+  }
+
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    background: #7159c1;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+.new-error {
+  display: block;
+  margin-bottom: 10px;
+  border: 1px solid red;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+}
